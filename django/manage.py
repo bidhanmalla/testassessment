@@ -2,6 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import sys
+sys.path.append("/path/to/myproject")
 
 def main():
     """Run administrative tasks."""
